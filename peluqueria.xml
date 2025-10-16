@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cadenaPeluquerias SYSTEM "peluqueria.dtd">
+<cadenaPeluquerias nombre="Peinadoscanarias">
+
+    <peluqueria id="peluqueria1">
+        <direccion>Calle del peluquero nº23</direccion>
+        <empleados>
+            <empleado>
+                <nombre>paco garcia</nombre>
+                <dni>123456789J</dni>
+                <fechanacimiento>27/12/1992</fechanacimiento>
+            </empleado>
+            <empleado>
+                <nombre>paquita garcia</nombre>
+                <dni>918273645L</dni>
+                <fechanacimiento>17/7/1987</fechanacimiento>
+            </empleado>
+        </empleados>
+        <clientes>
+            <cliente>
+                <nombre>manoli diaz</nombre>
+                <telefonos>
+                    <telefono>839739934</telefono>
+                    <telefono>357744232</telefono>
+                </telefonos>
+                <correo>manolidiaz@l.com</correo>
+            </cliente>
+            <cliente>
+                <nombre>jose garcia</nombre>
+                <telefono>884978493</telefono>
+            </cliente>
+        </clientes>
+        <ofertas>
+            <oferta>
+                <descripcion>corte de pelo</descripcion>
+                <precio>20</precio>
+                <descuento>10</descuento>
+            </oferta>
+            <oferta>
+                <descripcion>tinte de pelo</descripcion>
+                <precio>25</precio>
+                <descuento>10</descuento>
+            </oferta>
+        </ofertas>
+    </peluqueria>
+
+    <peluqueria id="peluqueria2">
+        <direccion>calle del mar</direccion>
+        <empleados>
+            <empleado>
+                <nombre>juan diaz</nombre>
+                <dni>872585489D</dni>
+                <fechanacimiento>27/1/1986</fechanacimiento>
+            </empleado>
+        </empleados>
+        <clientes>
+            <cliente>
+                <nombre>sergio ruiz</nombre>
+                <telefono>6734829349</telefono>
+                <correo>sergioruiz@l.com</correo>
+            </cliente>
+        </clientes>
+        <ofertas>
+            <oferta>
+                <descripcion>corte para niños</descripcion>
+                <precio>10</precio>
+                <descuento>5</descuento>
+            </oferta>
+        </ofertas>
+    </peluqueria>
+
+    <peluqueria id="peluqueria3">
+        <direccion>calle del sol</direccion>
+        <empleados>
+            <empleado>
+                <nombre>jorge diaz</nombre>
+                <dni>87347584D</dni>
+                <fechanacimiento>27/5/1976</fechanacimiento>
+            </empleado>
+        </empleados>
+        <clientes>
+            <cliente>
+                <nombre>soledad ruiz</nombre>
+                <telefono>38754275T</telefono>
+                <correo>soledadruiz@gmail.com</correo>
+            </cliente>
+        </clientes>
+        <ofertas>
+            <oferta>
+                <descripcion>afeitado</descripcion>
+                <precio>12</precio>
+                <descuento>8</descuento>
+            </oferta>
+        </ofertas>
+    </peluqueria>
+
+</cadenaPeluquerias>
